@@ -54,7 +54,12 @@ Usage: ./microblog.sh [flags...]
 For example, use this setting below to produce such beautiful image.
 
 ```shell
-$ ./microblog.sh --text="Produktif bukan berarti berbuat lebih, melainkan mengerjakan yang PENTING." --author="@rizafahmi" --background="#f9f8fc" --font=fonts/AmaticSC-Bold.ttf --filename="ig.png"
+$ ./microblog.sh \
+--text="Produktif bukan berarti berbuat lebih, melainkan mengerjakan yang PENTING." \
+--author="@rizafahmi" \
+--background="#f9f8fc" \
+--font=fonts/AmaticSC-Bold.ttf \
+--filename="ig.png"
 ```
 
 ![](./ig.png)
