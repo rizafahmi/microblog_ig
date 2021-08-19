@@ -8,7 +8,7 @@ FONT=""
 FILENAME="ig.png"
 
 display_help() {
-    echo "Usage: $0 [option...] (start|stop|restart)" >&2
+    echo "Usage: $0 [flags...]" >&2
     echo
     echo "     --author=\"@rizafahmi\"                            pesan tulisan atau nama yang akan muncul di kanan bawah gambar"
     echo "     --bgcolor=\"#f8f9fc\"                              warna latar dari gambar."
