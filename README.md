@@ -1,6 +1,6 @@
 # Microblog Generator
 
-## [Bahasa Indonesia](#indonesia) [English](#english)
+### [Bahasa Indonesia](#indonesia) [English](#english)
 
 ## <a name="english"></a> English
 
@@ -52,13 +52,14 @@ Usage: ./microblog.sh [flags...]
 ```
 
 For example, use this setting below to produce such beautiful image.
+Note: You need to put font file (ttf) into `fonts/` folder then use it.
 
 ```shell
 $ ./microblog.sh \
 --text="Produktif bukan berarti berbuat lebih, melainkan mengerjakan yang PENTING." \
 --author="@rizafahmi" \
 --background="#f9f8fc" \
---font=fonts/AmaticSC-Bold.ttf \
+--font=fonts/AwesomeQuote-MVLeY.ttf \
 --filename="ig.png"
 ```
 

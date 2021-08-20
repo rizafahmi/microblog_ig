@@ -3,6 +3,5 @@
 *.log
 tmp/
 
-fonts/*.ttf
 output/*.png
 templates/*.png
